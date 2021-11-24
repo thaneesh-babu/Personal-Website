@@ -1,0 +1,87 @@
+body {
+    background: #23272A;    ;
+    font-family: helvetica;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+a {
+    color: white;
+}
+
+.box {
+    padding: 60px;
+    box-shadow: 0px 0px 30px -10px black;
+    background-color: rgb(22, 22, 22);
+    max-width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.navbar{
+    border: 8px solid black;
+    position: fixed;
+    background-color:black;
+}
+
+.navbar > .tab {
+text-decoration: none;
+color: white;
+display: block;
+background-color: #23272A;
+box-shadow: 0px 0px 10px -5px black;
+padding: 10px;
+margin-left: 1%;
+margin-right: 1%;
+}
+
+.navbar > .tab:hover {
+background-color: rgb(22, 22, 22);
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #23272A;
+}
+
+
+h1 {
+    color: white;
+}
+
+
+p {
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
