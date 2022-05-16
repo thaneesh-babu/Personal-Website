@@ -1,5 +1,12 @@
 import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
+import {
+  faApple,
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import About from "../About/About";
 import Projects from "../Projects/Projects";
@@ -40,7 +47,7 @@ const Home = () => {
         exit={{ opacity: 0 }}
         className="Home"
       >
-        <h3 className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
+        <h1 className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
           Hello! i'm{" "}
           <span
             className="highlight"
@@ -49,10 +56,11 @@ const Home = () => {
           >
             Thaneesh
           </span>
-          , a computer science sophomore at Georgia Institute of Technology.
-        </h3>
+          .
+        </h1>
         <p className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
-          I'm interested in machine learning and full stack development, as
+          A computer science sophomore at Georgia Institute of Technology, I'm
+          interested in machine learning and full stack development, as
           suggested by my{" "}
           <span
             className="highlight"
@@ -63,8 +71,35 @@ const Home = () => {
           </span>
           .
         </p>
-        Besides these interests, I'm also a huge soccer enthusiast (Barça
+        <p className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
+          Besides these interests, I'm also a huge soccer enthusiast (Barça
           fan), love reading crime/thriller novels and listening to EDM.
+        </p>
+        <br></br>
+        <br></br>
+        <div className="icon-container">
+          <a
+            href="https://www.linkedin.com/in/thaneeshbabu/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+          <a
+            href="https://github.com/thaneesh-babu"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+          <a
+            href="https://www.instagram.com/thaneesh.bk/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
+        </div>
       </motion.div>
       <div className="scroll" ref={aboutReference} />
       <About />
