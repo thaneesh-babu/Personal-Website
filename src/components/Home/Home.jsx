@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
 import {
-  faApple,
   faGithub,
   faInstagram,
   faLinkedin,
@@ -100,6 +99,9 @@ const Home = () => {
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
         </div>
+        <br></br>
+        <br></br>
+        <button className="button--primary"> Resume <a href="#"></a></button>
       </motion.div>
       <div className="scroll" ref={aboutReference} />
       <About />
