@@ -47,7 +47,7 @@ const Home = () => {
         className="Home"
       >
         <h1 className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
-          Hello! i'm{" "}
+          Hello! I'm{" "}
           <span
             className="highlight"
             data-text="edmund."
@@ -73,6 +73,13 @@ const Home = () => {
         <p className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
           Besides these interests, I'm also a huge soccer enthusiast (Barça
           fan), love reading crime/thriller novels and listening to EDM.
+        </p>
+        <p className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
+          Here's my{" "}
+          <span className="highlight" data-text="website.">
+            <b><a href="../../../resume.pdf">resume</a></b>
+          </span>
+          .
         </p>
         <br></br>
         <br></br>
@@ -101,7 +108,10 @@ const Home = () => {
         </div>
         <br></br>
         <br></br>
-        <button className="button--primary"> Resume <a href="#"></a></button>
+        {/* <button className="button--primary">
+          {" "}
+          Resume <a href="../../../resume.pdf"></a>
+        </button> */}
       </motion.div>
       <div className="scroll" ref={aboutReference} />
       <About />
