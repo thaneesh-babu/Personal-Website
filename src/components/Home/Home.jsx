@@ -7,8 +7,8 @@ import Projects from "../Projects/Projects";
 import "./Home.scss";
 
 const Home = () => {
-  const aboutReference = (useRef < null) | (HTMLDivElement > null);
-  const projectsReference = (useRef < null) | (HTMLDivElement > null);
+  const aboutReference = useRef(null);
+  const projectsReference = useRef(null);
 
   const [isVisible, setVisible] = useState(true);
 
@@ -21,11 +21,15 @@ const Home = () => {
   });
 
   const scrollToAbout = () => {
-    aboutReference.current?.scrollIntoView({ behavior: "smooth" });
+    if (aboutReference.current) {
+      aboutReference.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   const scrollToProjects = () => {
-    projectsReference.current?.scrollIntoView({ behavior: "smooth" });
+    if (projectsReference.current) {
+      projectsReference.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -36,8 +40,8 @@ const Home = () => {
         exit={{ opacity: 0 }}
         className="Home"
       >
-        <h1 className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
-          Hello, i'm{" "}
+        <h3 className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
+          Hello! i'm{" "}
           <span
             className="highlight"
             data-text="edmund."
@@ -45,11 +49,11 @@ const Home = () => {
           >
             Thaneesh
           </span>
-          , a sophomore at Georgia Institute of Technology, majoring in computer
-          science.
-        </h1>
-        <h1 className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
-          I'm interested in machine learning and backend development, as my{" "}
+          , a computer science sophomore at Georgia Institute of Technology.
+        </h3>
+        <p className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
+          I'm interested in machine learning and full stack development, as
+          suggested by my{" "}
           <span
             className="highlight"
             data-text="website."
@@ -57,10 +61,10 @@ const Home = () => {
           >
             work
           </span>
-          below suggests. Besides these interests, I'm also a huge soccer
-          enthusiast (Barça fan), love reading crime/thriller novels and
-          listening to EDM.
-        </h1>
+          .
+        </p>
+        Besides these interests, I'm also a huge soccer enthusiast (Barça
+          fan), love reading crime/thriller novels and listening to EDM.
       </motion.div>
       <div className="scroll" ref={aboutReference} />
       <About />
