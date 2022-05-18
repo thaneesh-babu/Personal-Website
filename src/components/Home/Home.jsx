@@ -78,7 +78,7 @@ const Home = () => {
           Here's my{" "}
           <span className="highlight" data-text="website.">
             <b>
-              <a href="../../../resume.pdf">resume</a>
+              <a href="https://thaneesh-babu.github.io/resume.pdf">resume</a>
             </b>
           </span>
           .
