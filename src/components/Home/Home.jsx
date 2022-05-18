@@ -50,7 +50,7 @@ const Home = () => {
           Hello! I'm{" "}
           <span
             className="highlight"
-            data-text="edmund."
+            data-text="Thaneesh."
             onClick={scrollToAbout}
           >
             Thaneesh
@@ -77,7 +77,9 @@ const Home = () => {
         <p className={`fade-in-section ${isVisible ? "is-visible" : ""}`}>
           Here's my{" "}
           <span className="highlight" data-text="website.">
-            <b><a href="../../../resume.pdf">resume</a></b>
+            <b>
+              <a href="../../../resume.pdf">resume</a>
+            </b>
           </span>
           .
         </p>
