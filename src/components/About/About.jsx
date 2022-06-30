@@ -15,9 +15,9 @@ const About = () => (
           <b>Concentrations</b>: Intelligence, Systems & Architecture
         </p>
         <p className="p-content">
-          <b>Coursework</b>: Data Structures and Algorithms, Computer
-          Organization and Programming, Object Oriented Programming, Linear
-          Algebra
+          <b>Coursework</b>: Data Structures and Algorithms, Systems and
+          Networks, Computer Organization and Programming, Linear Algebra,
+          Discrete Mathematics, Statistics & Applications
         </p>
       </div>
     </div>
