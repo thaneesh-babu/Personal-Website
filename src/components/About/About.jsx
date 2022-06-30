@@ -24,11 +24,20 @@ const About = () => (
     <div className="about-section-2">
       <div className="about-content">
         <h2>Experience</h2>
+        <h3>Innovation Lab, NCR Corporation</h3>
+        <p className="p-content">
+          Created a cloud native service deployed onto GCP to support software
+          and config downloads by forecourt services, migrating from RCM, a
+          single-tenant architecture, consecutively designing the middleware
+          update service API for terminal controllers, scaling to large
+          deployments.
+        </p>
         <h3>HexLabs, Inc.</h3>
         <p className="p-content">
-          Building the microservice API that supports all HexLabs' frontend
-          applications for university-wide hackathons, using the MERN stack and
-          GraphQL.
+          Lead contributor in building the microservice API that supports all
+          HexLabs' frontend applications for university-wide hackathons, using
+          the MERN stack and GraphQL, as well as revamping the registration and
+          admin dashboard.
         </p>
         <h3>IT Board, Georgia Tech Student Government Association</h3>
         <p className="p-content">
@@ -36,19 +45,11 @@ const About = () => (
           <a href="https://critique.gatech.edu/" class="text-blue-500">
             Course Critique
           </a>
-          's database (Georgia Tech's grade distribution platform) and
-          developing robust algorithms to maximize accurate matches between
-          input searches and existing data. The platform serves 10,000+ students
-          in planning out their semesters, providing updated course and
-          professor information.
-        </p>
-        <h3>National Institute of Information Technology, Qatar</h3>
-        <p className="p-content">
-          Learnt and employed Python data science libraries such as Pandas,
-          NumPy and Matplotlib. As part of a personal project, I analyzed,
-          plotted, and extrapolated COVID-19 case figures in five countries,
-          applying data science tools on Johns Hopkins’ open-source coronavirus
-          dataset.
+          's backend (Georgia Tech's grade distribution platform) and developing
+          robust algorithms to maximize accurate matches between input searches
+          and existing data. The platform serves 10,000+ students in planning
+          out their semesters, providing updated course and professor
+          information.
         </p>
       </div>
     </div>
