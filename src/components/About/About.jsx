@@ -37,7 +37,7 @@ const About = () => (
           Lead contributor in building the microservice API that supports all
           HexLabs' frontend applications for university-wide hackathons, using
           the MERN stack and GraphQL, as well as revamping the registration and
-          admin dashboard.
+          admin dashboard services.
         </p>
         <h3>IT Board, Georgia Tech Student Government Association</h3>
         <p className="p-content">

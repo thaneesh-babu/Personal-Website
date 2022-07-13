@@ -13,8 +13,9 @@ const Projects = () => (
         <p className="p-content">
           Designing a model that produces electronic dance music similar to your
           favorite artists, using a multi-scale VQ-VAE and autoregressive
-          transformers. Trained on music samples of various genres and artists,
-          the model aims to produce new samples of the user's liking
+          transformers, inspired by OpenAI's Jukebox. Trained on music samples
+          of various genres and artists, the model aims to produce new samples
+          of the user's liking
         </p>
         <h3>
           <a href="https://devpost.com/software/daymaker">DayMaker</a>
