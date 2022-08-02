@@ -8,7 +8,7 @@ const Projects = () => (
       <div className="projects-content">
         <h2>Projects</h2>
         <h3>
-          <a>Revix</a>
+          <a href="https://github.com/thaneesh-babu/Revix">Revix</a>
         </h3>
         <p className="p-content">
           Designing a model that produces electronic dance music similar to your
@@ -28,6 +28,14 @@ const Projects = () => (
           working on building DayMaker without Google's services
         </p>
         <h3>
+          <a href="https://github.com/thaneesh-babu/Culinaid">Culinaid</a>
+        </h3>
+        <p className="p-content">
+        Mobile application, using NCR APIs, built to recommend recipes based off of the items added / scanned in-store to the user's
+        cart, in addition to the user's transaction history and the store items' popularity. Culinaid also provides the location of the
+        ingredients of each recipe in the store for a seamless consumer experience.
+        </p>
+        <h3>
           <a href="https://github.com/thaneesh-babu/Caproxy">Caproxy</a>
         </h3>
         <p className="p-content">
@@ -43,16 +51,6 @@ const Projects = () => (
           user-entered number of posts within a searched subreddit, generating
           plots describing the subreddit's sentiment over numerous features,
           rendered on a React application and backed by a Flask server
-        </p>
-        <h3>
-          <a href="https://github.com/thaneesh-babu/Might-Bite">Might Bite</a>
-        </h3>
-        <p className="p-content">
-          Built an application that displays recipes made with matching
-          user-entered ingredients, responsible for the project's backend
-          development; used a cloud hosted SQL database to store 50+ recipes.
-          Integrated the application with the school dining hall, improving
-          efficiency by 200% and used by 20+ faculty members
         </p>
       </div>
     </div>
