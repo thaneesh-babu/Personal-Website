@@ -10,13 +10,13 @@ import Projects from "./pages/Projects";
 function App() {
   const location = useLocation();
   return (
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/music" element={<Music />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+    <Routes location={location} key={location.pathname}>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/music" element={<Music />} />
+      <Route path="/experience" element={<Experience />} />
+      <Route path="/projects" element={<Projects />} />
+    </Routes>
   );
 }
 
