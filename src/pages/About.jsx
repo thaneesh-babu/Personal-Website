@@ -12,7 +12,7 @@ const About = () => (
     paddingTop={["5%", "10%", "2.5%"]}
   >
     <Text fontSize="xl" align={"left"} paddingTop={3}>
-      I'm a third-year Computer Science student at Georgia Tech, specializing in
+      I'm a junior at Georgia Tech, majoring in Computer Science specializing in
       Artificial Intelligence and Systems/Architecture. I take interest in
       full-stack development, machine learning, systems and computer
       architecture.
@@ -22,17 +22,6 @@ const About = () => (
       astrophysics, and listening to EDM.
     </Text>
 
-    <Text fontSize="xl" align={"left"} paddingTop={3}>
-      Here's my{" "}
-      <a href="https://thaneesh-babu.github.io/resume.pdf">
-        <u>resume</u>
-      </a>
-      , feel free to reach out to me{" "}
-      <a href="mailto:thaneesh@gatech.edu">
-        <u>here</u>
-      </a>
-      .
-    </Text>
   </Box>
 );
 
