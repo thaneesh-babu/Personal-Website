@@ -21,12 +21,6 @@ const Home = () => (
     paddingTop={["2.5%", "2.5%", "2.5%"]}
   >
     <HStack spacing={99} justifyContent="center">
-      <Image
-        borderRadius="full"
-        boxSize="175px"
-        src="../../assets/personal/thaneeshbabuimage.jpeg"
-        alt="Thaneesh Babu"
-      />
       <Box alignSelf={"right"}>
         <Text fontSize="2xl" align={"left"} paddingTop={1}>
           Hey, I'm <b>Thaneesh Babu</b>!
