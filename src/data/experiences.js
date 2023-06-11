@@ -2,7 +2,7 @@ export const experiences = [
   {
     id: 1,
     title: "Software Engineer Intern",
-    company: "Ibotta",
+    company: "Ibotta, Inc.",
     image: "",
     location: "Denver, CO",
     description:
@@ -20,7 +20,7 @@ export const experiences = [
   {
     id: 2,
     title: "Co-Director of Technology",
-    company: "Hexlabs, inc.",
+    company: "Hexlabs, Inc.",
     image: "",
     location: "Atlanta, GA",
     description:

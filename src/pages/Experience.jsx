@@ -1,7 +1,5 @@
 import React from "react";
-import Home from "./Home";
-import { Box, HStack, Image, Text, Wrap } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { Box, Wrap } from "@chakra-ui/react";
 import ExperienceCard from "../shared/ExperienceCard";
 import { experiences } from "../data/experiences";
 

@@ -2,7 +2,6 @@ import React from "react";
 import { Card, Text, Wrap, Tag } from "@chakra-ui/react";
 
 const ExperienceCard = (props) => {
-  console.log(props);
   return (
     <Card
       boxShadow="lg"
