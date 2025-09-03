@@ -28,8 +28,7 @@ const Home = () => (
         </Text>
         <Text fontSize="md" mt={2} color="gray.400">
           Pursuing a MSCS in Machine Learning at Georgia Tech with a BSCS specialization in Artificial
-          Intelligence and Systems/Architecture. Passionate about full-stack
-          development, machine learning, and computer systems.
+          Intelligence and Systems/Architecture. Passionate about machine learning and computer systems.
         </Text>
       </Box>
 
